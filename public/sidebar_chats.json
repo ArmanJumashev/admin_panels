@@ -1,0 +1,8 @@
+{
+    "messages": [
+      {"id": 1, "user": "Bob", "text": "Отлично! Удачи в этом!", "timestamp": "2023-12-05 09:15"},
+      {"id": 2, "user": "John", "text": "Зачем?", "timestamp": "2023-12-05 09:15"},
+      {"id": 3, "user": "Alexey", "text": "Нужна запись", "timestamp": "2023-12-05 09:15"},
+      {"id": 4, "user": "Misha", "text": "Почему", "timestamp": "2023-12-05 09:15"}
+    ]
+  }

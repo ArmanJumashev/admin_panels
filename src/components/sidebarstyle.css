@@ -1,0 +1,28 @@
+.chat-message {
+    background-color: #fff;
+    padding: 10px;
+    margin: 1px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.chat-message:hover {
+    background-color: gray; /* Цвет фона при наведении */
+}
+
+.sidebar-button {
+    width: 45px; /* Ширина кнопки на всю ширину сайдбара */
+    align-items: center;
+    height: 45px;
+    padding: 4px; /* Внутренние отступы */
+    margin: 7px 0; /* Отступы между кнопками */
+    margin-right: 5px;
+    border: none; /* Убрать границу */
+    background-color: #efeff2; /* Цвет фона кнопки */
+    border-radius: 2px; /* Скругленные углы */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-size: 1.2em; /* Размер шрифта */
+  }
+  
+.sidebar-button:hover {
+    background-color: #e0e0e0; /* Цвет фона при наведении */
+}
