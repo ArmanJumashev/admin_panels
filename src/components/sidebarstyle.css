@@ -14,10 +14,10 @@
     align-items: center;
     height: 45px;
     padding: 4px; /* Внутренние отступы */
-    margin: 7px 0; /* Отступы между кнопками */
-    margin-right: 5px;
+    margin: 2px 0; /* Отступы между кнопками */
+    margin-right: 1px;
     border: none; /* Убрать границу */
-    background-color: #efeff2; /* Цвет фона кнопки */
+    background:none;
     border-radius: 2px; /* Скругленные углы */
     cursor: pointer; /* Курсор в виде руки при наведении */
     font-size: 1.2em; /* Размер шрифта */

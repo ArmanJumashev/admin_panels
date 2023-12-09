@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MessagingPage from './MessagingPage';
 import PhoneCallsPage from './PhoneCallsPage';
+import './App.css'
 
 function App() {
   return (

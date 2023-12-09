@@ -20,8 +20,8 @@ function Sidebar() {
       .catch(error => console.error("Ошибка загрузки сообщений:", error));
   }, []);
 
-  function handleClick() {
-    navigate('/phone-calls'); // Путь к странице PhoneCallsPage
+  function handleClick(path) {
+    navigate(path); 
   }
 
 
@@ -31,18 +31,23 @@ function Sidebar() {
       <button className="sidebar-button" onClick={handleOpenModal}>
         <img src="/menu-four-svgrepo-com.svg" width={28} height={28} alt="menu"/>
       </button>
+
       <MiniSettingsWindow show={modalShow} onClose={handleCloseModal}>
         <p>Настройки</p>
       </MiniSettingsWindow>
-      <button className="sidebar-button" onClick={handleClick}>
+
+      <button className="sidebar-button" onClick={() => handleClick('/phone-calls')}>
         <img src="/phone-flip-svgrepo-com.svg" width={25} height={25} alt="phone"/>
       </button>
-      <button className="sidebar-button">
-        <img src="/info-square-svgrepo-com.svg" width={25} height={25} alt="phone"/>
+
+      <button className="sidebar-button" onClick={() => handleClick('/')}>
+        <img src="/info-square-svgrepo-com.svg" width={25} height={25} alt="chat"/>
       </button>
+
       {messages.map(message => (
         <SideBarChat key={message.id} message={message} />
       ))}
+
     </div>
   );
 }
